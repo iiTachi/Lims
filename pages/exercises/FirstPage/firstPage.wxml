@@ -1,0 +1,40 @@
+<!--pages/exercises/FirstPage/firstPage.wxml-->
+
+<view class='smell-list'>
+  <view class="smell-row">
+    <button class='btn_left' bindtap="Button1">
+       <image class='btn1Img' src='/static/main_test.png'></image>
+       <text class='text1'>{{text1}}</text>
+    </button>
+
+    <button class='btn_right' bindtap="Button2">
+       <image class='btn2Img' src='/static/main_history.png'></image>
+       <view class='view-text'>
+          <text class='text-content'>{{text2}}</text>
+       </view>
+    </button>
+  </view>
+
+  <view class="smell-row">
+  <span style="font-size:18rpx;"><view>
+    <button class='btn_left' bindtap="Button3">
+       <image class='btn3Img' src='/static/main_upload_data.png'></image>
+      <view class='view-text'>
+          <text class='text-content'>{{text3}}</text>
+      </view>
+    </button>
+
+    <view >
+      <modal hidden="{{modalHidden}}" no-cancel="true" confirm-text="返回" bindconfirm="modalBindaconfirm">
+          <button class='btnTips' bindtap="databtn">数据上报</button>
+          <button class='btnTips' bindtap="recordbtn">历史记录</button>
+      </modal>
+    </view>
+  </view></span>
+    
+    <button class='btn_right' bindtap="Button4">
+       <image class='btn4Img' src='/static/toolbar_user_setting.png'></image>
+       <text class='text4'>{{text4}}</text>
+    </button>
+  </view>
+</view>

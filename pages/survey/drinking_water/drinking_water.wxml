@@ -1,0 +1,17 @@
+<!--pages/survey/drinking_water/drinking_water.wxml-->
+<view class='title'>
+    <text>{{title[exercise_num-1]}}</text>
+</view>
+<view class='option-list'>
+    <radio-group class="radio-group" bindchange="radioChange">
+        <label class='option-radio' wx:for="{{option}}">
+            <radio checked="{{item.checked}}" value="{{item.value}}" />
+            <text class="{{index==idx?'option-radio-checked':'option-radio-unchecked'}}">{{item.name}}</text>
+        </label>
+    </radio-group>
+</view>
+
+<view class="btn-row">
+    <button bindtap='preExercise' class='button-pre'>{{button_pre}}</button>
+    <button bindtap='nextExercise' class='button-next'>{{button_next}}</button>
+</view>

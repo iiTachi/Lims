@@ -1,0 +1,2 @@
+/* pages/survey/drinking_water/drinking_water.wxss */
+@import '/common_wxss/choose_exercise.wxss'

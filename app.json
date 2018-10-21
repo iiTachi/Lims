@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/auth/login/login",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/data/record/record",
+    "pages/data/report/report",
+    "pages/survey/drinking_water/drinking_water",
+    "pages/exercises/snifferThreshold/SnifferThreshold",
+    "pages/exercises/waterSamples/WaterSamples",
+    "pages/exercises/UPSIT/UPSIT",
+    "pages/exercises/overallinterface",
+    "pages/exercises/FirstPage/firstPage",
+    "pages/exercises/Sensitive/sensitive",
+    "pages/select_onchange/select_onchange_without_intensity/select_onchange",
+    "pages/select_onchange/select_onchange_with_intensity/select_onchange_intensity",
+    "pages/auth/user/user",
+    "pages/auth/update/update",
+    "pages/exercises/completeExercise/completeExercise",
+    "pages/data/detail/detail",
+    "pages/data/location/location"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4169E1",
+    "navigationBarTextStyle": "white"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

@@ -1,0 +1,60 @@
+.section_input {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.input-text {
+  width: 220px;
+  color: rgb(120, 120, 120);
+  font-size: 20px;
+}
+
+.input {
+  font-size: 20px;
+}
+
+.radio-gender {
+  display: flex;
+  position: absolute;
+  right: 5px;
+}
+
+.radio {
+  display: flex;
+  margin: 6px;
+}
+
+.unchecked-text {
+  color: rgb(120, 120, 120);
+  font-size: 20px;
+}
+
+.checked-text {
+  color: #4169E1;
+  font-size: 20px;
+}
+
+.input-switch {
+  position: absolute;
+  right: 5px;
+}
+
+.button {
+  background-color: #4169E1;
+  width: 80%;
+  height: 42px;
+  line-height: 42px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+.picker {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+}

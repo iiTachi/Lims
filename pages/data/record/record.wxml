@@ -1,0 +1,21 @@
+<view class='record'>
+  <view class='record-wrapper'>
+    <scroll-view scroll-y='true' class='record-table' bindscrolltolower='loadMore'>
+      <view class='record-header'>
+        <text class='header-column'>检测对象</text>
+        <text class='header-column'>供水系统位置</text>
+        <text class='header-column'>水温</text>
+      </view>
+      <view class='record-content' wx:for="{{list}}" bindtap='navigateToDetail' data-detail="{{item}}">
+        <view class='item-section'>
+          <text class='item-column'>{{item.monitorObj.title}}</text>
+          <text class='item-column'>{{item.waterSupply.title}}</text>
+          <text class='item-column'>{{item.waterTemperature}}℃</text>
+        </view>
+        <view class='subitem-section'>
+          {{item.createTime}}
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

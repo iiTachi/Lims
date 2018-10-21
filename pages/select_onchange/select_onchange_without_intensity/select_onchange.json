@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "嗅味类型评价",
+    "usingComponents": {
+        "pd_sub": "/pd_sub/pd_sub"
+    }
+}

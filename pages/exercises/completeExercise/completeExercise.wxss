@@ -1,0 +1,71 @@
+/* pages/exercises/completeExercise/completeExercise.wxss */
+.score-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.view-text {
+  height: 100%;
+  width: 100%;
+  line-height: 130rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: gainsboro;
+}
+.view-text .text-content {
+  color: blue;
+  font-size: 36rpx;
+}
+
+.content-list{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  border-bottom: 1rpx solid rgba(161, 161, 161, 0.247);
+}
+.content-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content-row_last{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20rpx;
+  justify-content: space-between;
+}
+.view-text1 {
+  line-height: 130rpx;
+}
+.view-text1 .text-content1 {
+  color: red;
+  font-size: 33rpx;
+  line-height: 40rpx;
+  margin-left: 20rpx;
+}
+.view-text1 .text-content1_right {
+  color: green;
+  font-size: 33rpx;
+  line-height: 40rpx;
+  margin-right: 20rpx;
+}
+.view-text1 .text-content1_wrong {
+  color: red;
+  font-size: 33rpx;
+  line-height: 40rpx;
+  margin-right: 20rpx;
+}
+.view-text1 .text-content2 {
+  color: rgb(128, 91, 91);
+  font-size: 33rpx;
+  line-height: 40rpx;
+  margin-left: 20rpx;
+}
+.view-text1 .text-content2_right {
+  color: rgb(128, 91, 91);
+  font-size: 33rpx;
+  line-height: 40rpx;
+  margin-right: 20rpx;
+}

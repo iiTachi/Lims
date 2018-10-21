@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "嗅味强度练习",
+    "usingComponents": {
+        "pd_dif": "/pd_dif/pd_dif"
+    }
+}

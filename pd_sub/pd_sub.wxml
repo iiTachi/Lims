@@ -1,0 +1,27 @@
+<!--pd_sub/pd_sub.wxml-->
+<view class='report-row'>
+    <text class='txt'>{{msg6}}</text>
+    <view class='section'>
+        <picker bindchange='bindPickerChange1' value='{{index1}}' range='{{array1}}' name='嗅味类型'>
+            <view class='picker'>
+                <input style='text-align:right' placeholder='请选择' value='{{inputvalue1}}' disabled='true' />
+            </view>
+        </picker>
+        <modal hidden='{{hiddenmodalput1}}' title='其他' confirm-text='确定' cancel-text='取消' bindcancel='cancel1' bindconfirm='confirm1'>
+            <input placeholder='请输入内容' bindinput='voteTitle1' />
+        </modal>
+    </view>
+</view>
+
+<view class='report-row'>
+    <text class='txt'>{{msg7}}</text>
+    <view class='section'>
+        <picker bindchange='bindPickerChange2' disabled='{{hide}}' value='{{index2}}' range='{{array2}}' name='二级嗅味类型'>
+            <view class='picker'>
+                <input style='text-align:right' bindtap='withoutOne' disabled='true' placeholder='请选择' value='{{inputvalue2}}' />
+            </view>
+        </picker>
+
+
+    </view>
+</view>

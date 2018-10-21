@@ -1,0 +1,81 @@
+<!--pages/exercises/completeExercise/completeExercise.wxml-->
+<view class='score-list'>
+    <view class='view-text'>
+      <text class='text-content'>{{score}}</text>
+    </view>
+
+    <view class='view-text1' wx:for="{{transmission_data}}">
+      <view class='content-list'>
+        <view class="content-row">
+           <text class='text-content1'>题目{{index+1}}[ {{item.stem}}]            </text>
+           <block wx:if="{{item.is_correct}}">
+              <text class='text-content1_right'>{{item.is_correct?'正确':'错误'}}</text>
+           </block>
+           <block wx:else>
+              <text class='text-content1_wrong'>{{item.is_correct?'正确':'错误'}}</text>
+           </block>
+        </view>
+        <view class="content-row">
+           <text class='text-content2'>正确答案 ：</text>
+           <text class='text-content2_right'>{{item.correct_answer}}</text>
+        </view>
+        <view class="content-row_last">
+           <text class='text-content2'>您的回答 ：</text>
+           <text class='text-content2_right'>{{item.your_answer}}</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- <view class='view-text1'>
+      <view class='content-list'>
+        <view class="content-row">
+           <text class='text-content1'>题目1[ 请辨别B样品是 ：]            </text>
+           <text class='text-content1_right'>正确/错误</text>
+        </view>
+        <view class="content-row">
+           <text class='text-content2'>正确答案 ：</text>
+           <text class='text-content2_right'>自来水</text>
+        </view>
+        <view class="content-row_last">
+           <text class='text-content2'>您的回答 ：</text>
+           <text class='text-content2_right'>自来水</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='view-text1'>
+      <view class='content-list'>
+        <view class="content-row">
+           <text class='text-content1'>题目2[ 请辨别A样品是 ：]            </text>
+           <text class='text-content1_right'>正确/错误</text>
+        </view>
+        <view class="content-row">
+           <text class='text-content2'>正确答案 ：</text>
+           <text class='text-content2_right'>煮开自来水</text>
+        </view>
+        <view class="content-row_last">
+           <text class='text-content2'>您的回答 ：</text>
+           <text class='text-content2_right'>自来水</text>
+        </view>
+      </view>
+    </view>
+
+    <view class='view-text1'>
+      <view class='content-list'>
+        <view class="content-row">
+           <text class='text-content1'>题目3[ 请辨别C样品是 ：]            </text>
+           <text class='text-content1_right'>正确/错误</text>
+        </view>
+        <view class="content-row">
+           <text class='text-content2'>正确答案 ：</text>
+           <text class='text-content2_right'>超纯水</text>
+        </view>
+        <view class="content-row_last">
+           <text class='text-content2'>您的回答 ：</text>
+           <text class='text-content2_right'>自来水</text>
+        </view>
+      </view>
+    </view> -->
+
+</view>
+

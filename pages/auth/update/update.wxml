@@ -1,0 +1,60 @@
+<view class='update'>
+  <form bindsubmit='update'>
+    <view class='section_input'>
+      <view class='input-text'>性别</view>
+      <radio-group class="radio-gender" name='gender' bindchange='changeGender'>
+        <radio class='radio' value='true' checked="{{gender}}" color='#4169E1'>
+          <view class="{{gender ? 'checked-text' : 'unchecked-text'}}">先生</view>
+        </radio>
+        <radio class='radio' value='false' checked="{{!gender}}" color='#4169E1'>
+          <view class="{{!gender ? 'checked-text' : 'unchecked-text'}}">女士</view>
+        </radio>
+      </radio-group>
+    </view>
+    <view class='section_input'>
+      <view class='input-text'>出生日期</view>
+      <picker class='picker' mode="date" name="birth" value="{{birth}}" style='color:#4169E1' bindchange='bindBirthChange'>
+        <view>
+          {{birth}}
+        </view>
+      </picker>
+    </view>
+    <view class='section_input'>
+      <view class='input-text'>身份证号</view>
+      <input class='input' name='certId' style='text-align:right;color:#4169E1' value="{{userData.certId}}"></input>
+    </view>
+    <view class='section_input'>
+      <view class='input-text'>城市</view>
+      <input class='input' name='city' style='text-align:right;color:#4169E1' value="{{userData.city}}"></input>
+    </view>
+    <view class='section_input'>
+      <view class='input-text'>单位</view>
+      <input class='input' name='company' style='text-align:right;color:#4169E1' value="{{userData.company}}"></input>
+    </view>
+    <view class='section_input'>
+      <view class='input-text'>职业</view>
+      <input class='input' name='profession' style='text-align:right;color:#4169E1' value="{{userData.profession}}"></input>
+    </view>
+    <view class='section_input'>
+      <view class='input-text'>是否得过鼻炎</view>
+      <switch class='input-switch' name='rhinitis' checked="{{userData.rhinitis}}" color='#4169E1' bindchange='changeShowRhinitisYear'></switch>
+    </view>
+    <view hidden="{{!showRhinitisYear}}" class='section_input'>
+      <view class='input-text'>得鼻炎年份</view>
+      <input class='input' name='rhinitisYear' style='text-align:right;color:#4169E1' value="{{userData.rhinitisYear}}"></input>
+    </view>
+    <view class='section_input'>
+      <view class='input-text'>是否受过训练</view>
+      <switch class='input-switch' name='trained' checked="{{userData.trained}}" color='#4169E1' bindchange='changeShowLastTrainingDate'></switch>
+    </view>
+    <view hidden="{{!showLastTrainingDate}}" class='section_input'>
+      <view class='input-text'>上次受训日期</view>
+      <picker class='picker' mode="date" name="lastTrainingDate" value="{{lastTrainingDate}}" style='color:#4169E1' bindchange='bindlastTrainingDateChange'>
+        <view>
+          {{lastTrainingDate}}
+        </view>
+      </picker>
+    </view>
+    <button class='button' formType="submit">提交</button>
+  </form>
+</view>

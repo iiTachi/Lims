@@ -1,0 +1,43 @@
+/* pages/data/report/report.wxss */
+.report-list{
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.report-row{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid rgba(161, 161, 161, 0.247);
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-setting{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 10rpx;
+}
+.button-setting{
+  width: 350rpx;
+  height: 80rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 102, 255, 0.664);
+  margin-bottom: 30rpx;
+}
+.button-text{
+  color: white; 
+}
+.addSmellStyle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20rpx;
+  margin-top: 40rpx;
+  border-bottom: 1rpx solid rgba(161, 161, 161, 0.247);
+  font-size: smaller;
+  font-weight: bold;
+}

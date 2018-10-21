@@ -1,0 +1,2 @@
+/* pages/exercises/waterSamples/WaterSamples.wxss */
+@import '/common_wxss/choose_exercise.wxss'

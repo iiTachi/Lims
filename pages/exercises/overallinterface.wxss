@@ -1,0 +1,50 @@
+/* pages/exercises/overallinterface.wxss */
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid rgba(161, 161, 161, 0.247);
+}
+.view-text .text-content {
+  font-size: 35rpx;
+}
+.view-text{
+  line-height: 110rpx;
+  margin-left: 10rpx;
+}
+
+.btn3 {
+  height: 160rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid rgba(161, 161, 161, 0.247);
+}
+.view-btn3 .text-btn3 {
+  font-size: 35rpx;
+}
+.view-btn3{
+  line-height: 35rpx;
+  margin-left: 10rpx;
+  margin-top: 0rpx;
+}
+
+.btnImg {
+  width: 30rpx;
+  height: 45rpx;
+  margin-right: 10rpx;
+  margin-left: 10rpx;
+}
+
+.view-modal .modal-content {
+  font-size: 40rpx;
+}
+.view-modal {
+  height: 900rpx;
+  line-height: 40rpx;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+}

@@ -1,0 +1,40 @@
+<view class='detail'>
+  <form bindsubmit='update'>
+    <view class='section'>
+      <view class='describe'>检测样编号</view>
+      <text class='data'>{{detail.id}}</text>
+    </view>
+    <view class='section'>
+      <view class='describe'>检测对象</view>
+      <text class='data'>{{detail.monitorObj.title}}</text>
+    </view>
+    <view class='section'>
+      <view class='describe'>供水系统位置</view>
+      <text class='data'>{{detail.waterSupply.title}}</text>
+    </view>
+    <view class='section'>
+      <view class='describe'>水温</view>
+      <text class='data'>{{detail.waterTemperature}}</text>
+    </view>
+    <view class='section'>
+      <view class='describe'>嗅味类型</view>
+      <text class='data'>{{detail.smell[0].type.title}}</text>
+    </view>
+    <view class='section'>
+      <view class='describe'>二级嗅味类型</view>
+      <text class='data'>{{detail.smell[0].subType.title}}</text>
+    </view>
+    <view class='section'>
+      <view class='describe'>嗅味强度</view>
+      <text class='data'>{{detail.smell[0].strength}}</text>
+    </view>
+    <view class='section'>
+      <view class='describe'>上报时间</view>
+      <text class='data'>{{detail.createTime}}</text>
+    </view>
+    <view class='section'>
+      <view class='describe'>上报地点</view>
+      <image class='maps' src='/static/maps.png' bindtap='navigateToLocation'></image>
+    </view>
+  </form>
+</view>

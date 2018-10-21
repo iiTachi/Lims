@@ -1,0 +1,37 @@
+<view class='user'>
+  <view class='user-info'>
+    <view class='avatar-wrapper'>
+      <view class='profession-wrapper'>
+        <text class='profession'>{{userData.profession}}</text>
+      </view>
+      <image class='avatar-image' src='/static/user_icon.png'></image>
+      <view class='company-wrapper'>
+        <text class='company'>{{userData.company}}</text>
+      </view>
+    </view>
+    <view class='account-wrapper'>
+      <text class='info'>{{userData.username}}</text>
+      <text class='info'>{{userData.realname}}</text>
+    </view>
+    <view class='info-bar'>
+      <view class='info-wrapper'>
+        <text class='info'>手机号</text>
+        <text class='info'>{{userData.phone}}</text>
+      </view>
+      <view class='info-wrapper'>
+        <text class='info'>邮箱</text>
+        <text class='info'>{{userData.email}}</text>
+      </view>
+    </view>
+  </view>
+  <view class='setting-list'>
+    <button class='changePsd-wrapper' bindtap='changePsd'>
+      <image class='changePsd-icon' src='/static/change_password.png'></image>
+      <text class='changePsd'>修改密码</text>
+    </button>
+    <button class='changeUser-wrapper' bindtap='changeUser'>
+      <image class='changeUser-icon' src='/static/change_user_info.png'></image>
+      <text class='changeUser'>修改个人信息</text>
+    </button>
+  </view>
+</view>

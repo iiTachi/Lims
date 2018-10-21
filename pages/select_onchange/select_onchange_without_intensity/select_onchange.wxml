@@ -1,0 +1,21 @@
+<form bindsubmit='formSubmit'>
+    <view class='section'>
+
+        <!-- 假数据, 之后使用API数据填充 -->
+        <view class='title'>
+            <text>题目{{exercise_num}}:{{exercise[exercise_num-1].stem}}</text>
+        </view>
+
+        <!-- 引入自定义组件 -->
+        <view class='picker-view'>
+            <pd_sub id='pd' bindmyevent='onMyevent' msg6='嗅味类型' msg7='二级嗅味类型' array_fromApi='{{smell_types_api}}' array1='{{smell_types}}' array20='{{sub_smell0}}' array21='{{sub_smell1}}' array22='{{sub_smell2}}' array23='{{sub_smell3}}' array24='{{sub_smell4}}' array25='{{sub_smell5}}' array26='{{sub_smell6}}' array27='{{sub_smell7}}' inputvalue1='{{type_firstvalue}}' inputvalue2='{{sub_type_firstvalue}}'>
+            </pd_sub>
+        </view>
+
+        <!-- 上下题切换按钮 -->
+        <view class='btn-row'>
+            <button bindtap='preExercise' class='button-pre'>{{button_pre}}</button>
+            <button bindtap='nextExercise' class='button-next'>{{button_next}}</button>
+        </view>
+    </view>
+</form>

@@ -1,0 +1,98 @@
+/* pages/exercises/FirstPage/firstPage.wxss */
+
+Page {
+  background-color: white
+}
+
+.smell-list{
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+}
+.smell-row{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn_left{
+  width: 265rpx;
+  height: 265rpx;
+  margin-top: 25rpx;
+  margin-left: 50rpx;
+  background-color:cornflowerblue;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_right{
+  width: 265rpx;
+  height: 265rpx;
+  margin-top: 25rpx;
+  margin-right: 50rpx;
+  background-color:cornflowerblue;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn1Img {
+  width: 90rpx;
+  height: 110rpx;
+  margin-top: 25rpx;
+  margin-bottom: 12rpx;
+}
+
+.btn2Img {
+  width: 95rpx;
+  height: 115rpx;
+  margin-top: 25rpx;
+  margin-bottom: 12rpx;
+}
+
+.btn3Img {
+  width: 140rpx;
+  height: 90rpx;
+  margin-top: 25rpx;
+  margin-bottom: 12rpx;
+}
+
+.btn4Img {
+  width: 70rpx;
+  height: 80rpx;
+  margin-top: 25rpx;
+  margin-bottom: 12rpx;
+}
+
+.text1{
+  font-size: 29rpx;
+}
+
+.text4{
+  font-size: 30rpx;
+}
+
+.view-text .text-content {
+  font-size: 30rpx;
+}
+.view-text {
+  line-height: 30rpx;
+}
+
+.btnTips{
+  margin-top: 45rpx;
+  background-color:cornflowerblue;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

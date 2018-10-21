@@ -1,0 +1,21 @@
+<!--pages/exercises/Sensitive/sensitive.wxml-->
+<scroll-view scroll-y="true" style="height: 500px">
+
+  <span style="font-size:18rpx;"><view>
+    <button class='btn1' bindtap="drinkingButton">
+      <text class='text'>{{title[0]}}</text>
+      <image class='btn1Img' src='/static/arrow_next.png'></image>
+    </button> 
+  </view></span>
+
+  <button class='btn1' bindtap="materialButton">
+    <text class='text'>{{title[1]}}</text>
+    <image class='btn1Img' src='/static/arrow_next.png'></image>
+  </button>
+
+  <button class='btn1' bindtap="upsitButton">
+    <text class='text'>{{title[2]}}</text>
+    <image class='btn1Img' src='/static/arrow_next.png'></image>
+  </button>
+
+</scroll-view>

@@ -1,0 +1,19 @@
+<view class='login'>
+  <view class='header-wrapper'>
+    <image class='logo' src='/static/logo.png'></image>
+    <text class='appName'>{{text}}</text>
+  </view>
+  <view class='form'>
+    <form bindsubmit='login'>
+      <view class='input-wrapper'>
+        <image class='input-icon' src='/static/login_account.png'></image>
+        <input class='input' name='username' placeholder-style="color:black" placeholder='请输入账号'></input>
+      </view>
+      <view class='input-wrapper'>
+        <image class='input-icon' src='/static/login_password.png'></image>
+        <input class='input' password name='password' placeholder-style="color:black" placeholder='请输入密码'></input>
+      </view>
+      <button class='button' formType="submit">登陆</button>
+    </form>
+  </view>
+</view>

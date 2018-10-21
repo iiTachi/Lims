@@ -1,0 +1,2 @@
+/* pages/exercises/UPSIT/UPSIT.wxss */
+@import '/common_wxss/choose_exercise.wxss'

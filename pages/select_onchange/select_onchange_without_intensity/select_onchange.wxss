@@ -1,0 +1,8 @@
+@import '/common_wxss/choose_exercise.wxss';
+
+.picker-view {
+    margin-top: 40rpx;
+    margin-bottom: 20rpx;
+    margin-left: 40rpx;
+    margin-right: 40rpx;
+}

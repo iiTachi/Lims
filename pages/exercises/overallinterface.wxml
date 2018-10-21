@@ -1,0 +1,114 @@
+<!--pages/exercises/overallinterface.wxml-->
+
+<scroll-view scroll-y="true" >
+
+  <button class='btn' bindtap="Button0">
+    <view class='view-text'>
+        <text class='text-content'>{{title[0].text}}</text>
+    </view>
+    <image class='btnImg' src='/static/arrow_next.png'></image>
+  </button>
+
+  <button class='btn' bindtap="Button1">
+    <view class='view-text'>
+        <text class='text-content'>{{title[1].text}}</text>
+    </view>
+    <image class='btnImg' src='/static/arrow_next.png'></image>
+  </button>
+
+  <button class='btn' bindtap="Button2">
+    <view class='view-text'>
+        <text class='text-content'>{{title[2].text}}</text>
+    </view>
+    <image class='btnImg' src='/static/arrow_next.png'></image>
+  </button>
+
+  <button class='btn3' bindtap="Button3">
+    <view class='view-btn3'>
+        <text class='text-btn3'>{{title[3].text}}</text>
+    </view>
+    <image class='btnImg' src='/static/arrow_next.png'></image>
+  </button>
+
+  <button class='btn' bindtap="Button4">
+    <view class='view-text'>
+        <text class='text-content'>{{title[4].text}}</text>
+    </view>
+    <image class='btnImg' src='/static/arrow_next.png'></image>
+  </button>
+
+  <button class='btn' bindtap="Button5">
+    <view class='view-text'>
+        <text class='text-content'>{{title[5].text}}</text>
+    </view>
+    <image class='btnImg' src='/static/arrow_next.png'></image>
+  </button>
+
+  <button class='btn' bindtap="Button6">
+    <view class='view-text'>
+        <text class='text-content'>{{title[6].text}}</text>
+    </view>
+    <image class='btnImg' src='/static/arrow_next.png'></image>
+  </button>
+
+  <button class='btn' bindtap="Button7">
+    <view class='view-text'>
+        <text class='text-content'>{{title[7].text}}</text>
+    </view>
+    <image class='btnImg' src='/static/arrow_next.png'></image>
+  </button>
+
+  <span style="font-size:18rpx;"><view>
+    <button class='btn' bindtap="Button8">
+      <view class='view-text'>
+        <text class='text-content'>{{title[8].text}}</text>
+      </view>
+      <image class='btnImg' src='/static/arrow_next.png'></image>
+    </button>
+    
+    <!-- <modal hidden="{{modalHidden}}" title="饮用水嗅味喜好调查"no-cancel="true" confirm-text="开始答题" bindconfirm="confirm8">
+        <scroll-view scroll-y="true">
+            <text>{{textGuide8}}</text>
+        </scroll-view>
+     </modal> -->
+  </view></span>
+  
+  <button class='btn' bindtap="Button9">
+    <view class='view-text'>
+        <text class='text-content'>{{title[9].text}}</text>
+    </view>
+    <image class='btnImg' src='/static/arrow_next.png'></image>
+  </button>
+
+  <span style="font-size:18rpx;"><view>
+    <button class='btn' bindtap="Button10">
+      <view class='view-text'>
+        <text class='text-content'>{{title[10].text}}</text>
+      </view>
+      <image class='btnImg' src='/static/arrow_next.png'></image>
+    </button>
+
+    <!-- <view >
+      <modal hidden="{{modalHidden}}" title="{{title}}"no-cancel="true" confirm-text="开始答题" bindconfirm="confirm10">
+          <view class='view-modal'>
+             <text class='modal-content'>{{textGuide10}}</text>
+          </view>
+      </modal>
+    </view> -->
+  </view></span>
+
+  <button class='btn' bindtap="Button11">
+    <view class='view-text'>
+        <text class='text-content'>{{title[11].text}}</text>
+    </view>
+    <image class='btnImg' src='/static/arrow_next.png'></image>
+  </button>
+
+  <button class='btn' bindtap="Button12">
+    <view class='view-text'>
+        <text class='text-content'>{{title[12].text}}</text>
+    </view>
+    <image class='btnImg' src='/static/arrow_next.png'></image>
+  </button>
+
+</scroll-view>

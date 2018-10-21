@@ -1,0 +1,18 @@
+<!--pages/exercises/UPSIT/UPSIT.wxml-->
+<view class='title'>
+  <text>题目{{exercise_num}}：{{exercise[exercise_num-1].stem}}</text>
+</view>
+<view class='option-list'>
+  <radio-group class="radio-group" bindchange="radioChange">
+    <label class='option-radio' wx:for="{{exercise[exercise_num-1].options}}">
+      <radio checked="{{item.checked}}" value="{{item.id}}"/>
+      <text class="{{item.id==idx?'option-radio-checked':'option-radio-unchecked'}}">{{item.option}}</text>
+    </label>
+  </radio-group>
+</view>
+
+<view class="btn-row">
+    <button bindtap='preExercise' class='button-pre'>{{button_pre}}</button>
+  <button bindtap='nextExercise' class='button-next'>{{button_next}}</button>
+    
+  </view>
